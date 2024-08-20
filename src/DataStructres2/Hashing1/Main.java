@@ -46,7 +46,6 @@ public class Main {
 //        for(String coun : countries){
 //            System.out.println(coun + " : " + map.get(coun));
 //        }
-
     }
     public static void demoOfForEachLoop(){
         int[] arr = {10, 20, 30, 40, 50};
