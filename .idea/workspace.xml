@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructres2/Hashing1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructres2/Hashing1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructres2/Hashing1/CountFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructres2/Hashing1/CountFrequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
     "Application.FibonacciSeries.executor": "Run",
     "Application.Fibonaccirecurssion.executor": "Run",
     "Application.FibonacciusingForLoop.executor": "Run",
+    "Application.FirstNonRepeatingElement.executor": "Run",
     "Application.GCDIterative.executor": "Run",
     "Application.GCDRecursion.executor": "Run",
     "Application.Main.executor": "Debug",
@@ -124,7 +125,7 @@
       <workItem from="1723085034216" duration="13041000" />
       <workItem from="1723516835726" duration="857000" />
       <workItem from="1724036022979" duration="8444000" />
-      <workItem from="1724120783920" duration="7742000" />
+      <workItem from="1724120783920" duration="11368000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

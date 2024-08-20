@@ -34,3 +34,5 @@ public class CountFrequency {
         frequencyOfElement(A, Q);
     }
 }
+
+ // The Time Complexity is 0(n + q) & Space Complexity is 0(n).
