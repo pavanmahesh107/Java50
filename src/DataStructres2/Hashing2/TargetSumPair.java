@@ -21,4 +21,4 @@ public class TargetSumPair {
         System.out.println(Solve(A,K));
     }
 }
-// The Time complexity is 0(n^2), and space complexity is 0(1) but the exepected Time complexity is 0(n).
+// The Time complexity is 0(n^2), and space complexity is 0(1), but the expected Time complexity is 0(n).
