@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructres2/Hashing1/CountFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructres2/Hashing1/CountFrequency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Application.StringContainsVowels.executor": "Run",
     "Application.StringMethods.executor": "Run",
     "Application.StringPrograms.executor": "Run",
+    "Application.SubArraySumK.executor": "Run",
     "Application.SwapNumbers.executor": "Run",
     "Application.TargetSumExpectedSol.executor": "Run",
     "Application.TargetSumPair.executor": "Run",
@@ -136,6 +136,7 @@
       <workItem from="1724212984247" duration="4245000" />
       <workItem from="1724233127839" duration="7146000" />
       <workItem from="1724937774424" duration="700000" />
+      <workItem from="1724983487466" duration="6283000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
