@@ -37,10 +37,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CaluclateApowerN.executor": "Run",
+    "Application.Children.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.CountFrequency.executor": "Run",
     "Application.CountOfPairs.executor": "Run",
+    "Application.CustomKey.executor": "Run",
     "Application.DataStructres2.Hashing1.Main.executor": "Run",
+    "Application.DataStructres2.Hashing3.ObjectasaKey.Main.executor": "Run",
+    "Application.DataStructres2.Recursion3.Main.executor": "Run",
+    "Application.DistinctCoordinates.executor": "Run",
     "Application.DistinctElement.executor": "Run",
     "Application.EagerSingleton.executor": "Run",
     "Application.FibonacciIterative.executor": "Run",
@@ -50,16 +56,22 @@
     "Application.FirstNonRepeatingElement.executor": "Run",
     "Application.GCDIterative.executor": "Run",
     "Application.GCDRecursion.executor": "Run",
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.MaximumAverageSubArray.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
     "Application.StringContainsVowels.executor": "Run",
     "Application.StringMethods.executor": "Run",
     "Application.StringPrograms.executor": "Run",
+    "Application.Student.executor": "Run",
     "Application.SubArraySumK.executor": "Run",
+    "Application.SumofAllDigits.executor": "Run",
     "Application.SwapNumbers.executor": "Run",
     "Application.TargetSumExpectedSol.executor": "Run",
     "Application.TargetSumPair.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TowerofHannai.executor": "Run",
+    "Application.TowersofHannai.executor": "Run",
+    "Application.WindowofSizeB.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -136,7 +148,21 @@
       <workItem from="1724212984247" duration="4245000" />
       <workItem from="1724233127839" duration="7146000" />
       <workItem from="1724937774424" duration="700000" />
-      <workItem from="1724983487466" duration="6283000" />
+      <workItem from="1724983487466" duration="7662000" />
+      <workItem from="1725161430112" duration="1243000" />
+      <workItem from="1725269395402" duration="5570000" />
+      <workItem from="1725336444812" duration="3252000" />
+      <workItem from="1725354074401" duration="4677000" />
+      <workItem from="1725416730396" duration="4457000" />
+      <workItem from="1725506097838" duration="6654000" />
+      <workItem from="1725589771031" duration="7591000" />
+      <workItem from="1725607465288" duration="8203000" />
+      <workItem from="1725682896945" duration="8577000" />
+      <workItem from="1725871447040" duration="1228000" />
+      <workItem from="1726220484695" duration="1214000" />
+      <workItem from="1726463451988" duration="5439000" />
+      <workItem from="1726630990102" duration="2717000" />
+      <workItem from="1727080550098" duration="4528000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
