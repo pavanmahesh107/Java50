@@ -57,6 +57,7 @@
     "Application.FirstNonRepeatingElement.executor": "Run",
     "Application.GCDIterative.executor": "Run",
     "Application.GCDRecursion.executor": "Run",
+    "Application.Insertionsorting.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaximumAverageSubArray.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
@@ -164,7 +165,8 @@
       <workItem from="1726463451988" duration="5439000" />
       <workItem from="1726630990102" duration="2717000" />
       <workItem from="1727080550098" duration="6589000" />
-      <workItem from="1727236051852" duration="1600000" />
+      <workItem from="1727236051852" duration="2956000" />
+      <workItem from="1727265008907" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
