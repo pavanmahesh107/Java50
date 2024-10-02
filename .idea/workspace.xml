@@ -75,6 +75,7 @@
     "Application.TowerofHannai.executor": "Run",
     "Application.TowersofHannai.executor": "Run",
     "Application.WindowofSizeB.executor": "Run",
+    "Application.WrapperClassExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -167,7 +168,8 @@
       <workItem from="1726630990102" duration="2717000" />
       <workItem from="1727080550098" duration="6589000" />
       <workItem from="1727236051852" duration="2956000" />
-      <workItem from="1727265008907" duration="4841000" />
+      <workItem from="1727265008907" duration="6467000" />
+      <workItem from="1727753014684" duration="7235000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
