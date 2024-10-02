@@ -69,6 +69,7 @@
     "Application.SubArraySumK.executor": "Run",
     "Application.SumofAllDigits.executor": "Run",
     "Application.SwapNumbers.executor": "Run",
+    "Application.Systemerr.executor": "Run",
     "Application.TargetSumExpectedSol.executor": "Run",
     "Application.TargetSumPair.executor": "Run",
     "Application.Test.executor": "Run",
@@ -169,7 +170,7 @@
       <workItem from="1727080550098" duration="6589000" />
       <workItem from="1727236051852" duration="2956000" />
       <workItem from="1727265008907" duration="6467000" />
-      <workItem from="1727753014684" duration="7235000" />
+      <workItem from="1727753014684" duration="8257000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
