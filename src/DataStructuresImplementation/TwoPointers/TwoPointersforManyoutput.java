@@ -1,4 +1,4 @@
-package DataStructuresImplementation;
+package DataStructuresImplementation.TwoPointers;
 
 // Two pointers sum for a multiple pairs. If the array is Sorted.
 
