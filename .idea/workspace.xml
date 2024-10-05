@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructuresImplementation/TwoPointersExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresImplementation/TwoPointersExpforSingleoutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,7 @@
     "Application.MaximumAverageSubArray.executor": "Run",
     "Application.MergesortedArray.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
     "Application.StringContainsVowels.executor": "Run",
     "Application.StringMethods.executor": "Run",
     "Application.StringPrograms.executor": "Run",
@@ -79,6 +79,7 @@
     "Application.TowerofHannai.executor": "Run",
     "Application.TowersofHannai.executor": "Run",
     "Application.TwoPointersExp.executor": "Run",
+    "Application.TwoPointersExpforSingleoutput.executor": "Run",
     "Application.TwoPointersforManyoutput.executor": "Run",
     "Application.WindowofSizeB.executor": "Run",
     "Application.WrapperClassExample.executor": "Run",
@@ -176,7 +177,7 @@
       <workItem from="1727236051852" duration="2956000" />
       <workItem from="1727265008907" duration="6467000" />
       <workItem from="1727753014684" duration="10411000" />
-      <workItem from="1727928057688" duration="12438000" />
+      <workItem from="1727928057688" duration="14751000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
