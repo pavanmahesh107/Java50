@@ -83,6 +83,7 @@
     "Application.TwoPointersExpforSingleoutput.executor": "Run",
     "Application.TwoPointersHashTable.executor": "Run",
     "Application.TwoPointersforManyoutput.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
     "Application.WindowofSizeB.executor": "Run",
     "Application.WrapperClassExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -179,7 +180,7 @@
       <workItem from="1727236051852" duration="2956000" />
       <workItem from="1727265008907" duration="6467000" />
       <workItem from="1727753014684" duration="10411000" />
-      <workItem from="1727928057688" duration="32432000" />
+      <workItem from="1727928057688" duration="35499000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
