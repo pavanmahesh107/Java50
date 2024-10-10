@@ -5,8 +5,11 @@ import java.util.Stack;
 public class ValidParentheses {
     public boolean isValid(String myString){
         // Checking the Edge case If String Empty or String is Null.
-        if(myString == null || myString.isEmpty()){  // myString.length() == 0 -> myString.!isEmpty()
+        if(myString == null){  // myString.length() == 0 -> myString.!isEmpty()
             return false;
+        }
+        if(myString.isEmpty()){
+            return true;
         }
 
         Stack<Character> characterStack = new Stack<>();  // Create a Stack to track of opening brackets.
@@ -28,7 +31,7 @@ public class ValidParentheses {
 
     }    public static void main(String[] args) {
          ValidParentheses validParentheses =new ValidParentheses();
-        String myString = "(){}";
+        String myString = "(]";
         boolean res = validParentheses.isValid(myString);
         System.out.println(res);
     }
