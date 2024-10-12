@@ -38,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayImplementaion.executor": "Run",
+    "Application.BobJames.executor": "Run",
     "Application.Bubblesorting.executor": "Run",
     "Application.CaluclateApowerN.executor": "Run",
     "Application.Characterarray.executor": "Run",
@@ -183,7 +184,7 @@
       <workItem from="1727265008907" duration="6467000" />
       <workItem from="1727753014684" duration="10411000" />
       <workItem from="1727928057688" duration="42030000" />
-      <workItem from="1728532437032" duration="16142000" />
+      <workItem from="1728532437032" duration="20859000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
