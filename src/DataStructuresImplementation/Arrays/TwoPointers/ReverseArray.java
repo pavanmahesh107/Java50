@@ -1,4 +1,4 @@
-package DataStructuresImplementation.TwoPointers;
+package DataStructuresImplementation.Arrays.TwoPointers;
 
 public class ReverseArray {
     public static int[] reversearray(int[] arr){

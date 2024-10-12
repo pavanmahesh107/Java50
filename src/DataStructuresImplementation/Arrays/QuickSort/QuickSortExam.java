@@ -1,4 +1,4 @@
-package DataStructuresImplementation;
+package DataStructuresImplementation.Arrays.QuickSort;
 
 public class QuickSortExam {
 

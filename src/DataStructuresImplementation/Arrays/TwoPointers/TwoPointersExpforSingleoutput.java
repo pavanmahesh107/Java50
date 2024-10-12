@@ -1,4 +1,4 @@
-package DataStructuresImplementation.TwoPointers;
+package DataStructuresImplementation.Arrays.TwoPointers;
 
 // Two pointers for a single pair. If the array is Sorted.
 

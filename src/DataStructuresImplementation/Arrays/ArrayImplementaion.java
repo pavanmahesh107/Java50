@@ -1,4 +1,4 @@
-package DataStructuresImplementation;
+package DataStructuresImplementation.Arrays;
 
  // Implementing an Array
 
