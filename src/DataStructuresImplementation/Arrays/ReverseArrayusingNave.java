@@ -28,3 +28,11 @@ public class ReverseArrayusingNave {
         System.out.println();
     }
 }
+
+// Time complexity is O(n) and Space complexity is O(n)
+// We can reduce the space complexity by using two pointer technique and swapping values.
+
+//The idea is to use a temporary array to store the reverse of the array.
+//Create a temporary array of the same size as the original array.
+//Now, copy all elements from an original array to the temporary array in reverse order.
+//Finally, copy all the elements from a temporary array back to the original array.
