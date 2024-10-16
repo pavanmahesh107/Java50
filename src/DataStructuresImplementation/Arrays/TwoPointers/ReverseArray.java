@@ -18,7 +18,8 @@ public class ReverseArray {
         int[] arr = {8,9,3,1,5,6,10,7};
         int[] res= reversearray(arr);
         for(int num : res){
-            System.out.println("Answer array: " + num);
+            System.out.print(num + " ");
         }
+        System.out.println();
     }
 }
