@@ -60,14 +60,14 @@ public class QuickSortExam {
 
 //Auxiliary Space: O(n), due to recursive call stack
 //
-//Advantages of Quick Sort
+//Advantages of Quick Sort,
 //
 //It is a divide-and-conquer algorithm that makes it easier to solve problems.
 //It is efficient on large data sets.
 //It has a low overhead, as it only requires a small amount of memory to function.
 //It is Cache-Friendly as we work on the same array to sort and do not copy data to any auxiliary array.
 //Fastest general purpose algorithm for large data when stability is not required.
-//It is tail recursive and hence all the tail call optimization can be done.
+//It is tail recursive, and hence all the tail call optimization can be done.
 
 //Disadvantages of Quick Sort
 //
@@ -85,5 +85,5 @@ public class QuickSortExam {
 //Used in partitioning problems like finding the kth smallest element or dividing arrays by pivot.
 //Integral to randomized algorithms, offering better performance than deterministic approaches.
 //Applied in cryptography for generating random permutations and unpredictable encryption keys.
-//Partitioning step can be parallelized for improved performance in multicore or distributed systems.
+//The partitioning step can be parallelized for improved performance in multicore or distributed systems.
 //Important in theoretical computer science for analyzing average-case complexity and developing new techniques.

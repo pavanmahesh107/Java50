@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit" />
+    <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/QuickSort/QuickSortExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/QuickSort/QuickSortExam.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,9 +67,11 @@
     "Application.MaximumAverageSubArray.executor": "Run",
     "Application.MergesortedArray.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.QuickSortExam.executor": "Run",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseArrayuisngTwoPointers.executor": "Run",
+    "Application.ReverseArrayusingNave.executor": "Run",
     "Application.SortZeroOne.executor": "Run",
     "Application.StringContainsVowels.executor": "Run",
     "Application.StringMethods.executor": "Run",
@@ -188,7 +194,7 @@
       <workItem from="1728826908542" duration="1878000" />
       <workItem from="1728842065419" duration="116000" />
       <workItem from="1729014633453" duration="1778000" />
-      <workItem from="1729056091465" duration="1941000" />
+      <workItem from="1729056091465" duration="11980000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
