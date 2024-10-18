@@ -14,11 +14,11 @@ public class TwoPointersExpforSingleoutput {
             if (sum == target) {
                 System.out.println("Pair found: (" + arr[left] + "," + arr[right]+")");
                 return;
-                // If we want, the total number of pairs; we don't need the return statement. but the "No pair found with the given target sum" statement also prints.
+                // If we want the total number of pairs, we don't need the return statement. but the "No pair found with the given target sum" statement also prints.
 
             }
             if (sum < target) {
-                left++;   // If the sum is lesser that the target, increment left to increase the sum.
+                left++;   // If the sum is lesser than the target, increment left to increase the sum.
             } else {
                 right--; // If the sum is greater than the target, decrement right to decrease the sum.
             }

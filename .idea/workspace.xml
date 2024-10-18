@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/MergeSort/MergeSortExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/MergeSort/MergeSortExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/TwoPointers/TwoPointersExpforSingleoutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructuresImplementation/Arrays/TwoPointers/TwoPointersExpforSingleoutput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +198,8 @@
       <workItem from="1729056091465" duration="12796000" />
       <workItem from="1729137002297" duration="3430000" />
       <workItem from="1729239456216" duration="357000" />
+      <workItem from="1729239839254" duration="1933000" />
+      <workItem from="1729243145320" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

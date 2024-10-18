@@ -18,9 +18,33 @@ public class MergeSortExp {
             rightArray[j] = arr[mid + 1 + j];
         }
 
-        //
+        // Code segment for merging the two arrays
+        int i = 0, j = 0;
+        int K = left;
 
+        while(i < n1 && j < n2){
+            if(leftArray[i] <= rightArray[j]){
+                arr[K]= leftArray[i];
+                i++;
+            } else {
+                arr[K]= rightArray[j];
+                j++;
+            }
+            K++;
+        }
 
+        // Remaining elements in any of the temporary array.
+        while (i < n1){  // For the left Sub Array.
+             arr[K]= leftArray[i];
+             i++;
+             K++;
+        }
+
+        while (j < n2){  // For the right Sub Array.
+            arr[K]= rightArray[j];
+            j++;
+            K++;
+        }
     }
     public static void main(String[] args) {
         int[] arr = {12, 11, 13, 5, 6, 7};
