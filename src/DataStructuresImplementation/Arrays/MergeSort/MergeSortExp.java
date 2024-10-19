@@ -1,7 +1,7 @@
 package DataStructuresImplementation.Arrays.MergeSort;
 
 public class MergeSortExp {
-    public static int[] mergeSort(int[] arr, int left, int mid, int right){
+    public static void mergeSort(int[] arr, int left, int mid, int right){
         // Find sizes of two subarrays to be merged
         int n1 = mid - left + 1;
         int n2 = right -mid;
@@ -45,11 +45,11 @@ public class MergeSortExp {
             j++;
             K++;
         }
-        return new int[];
+
     }
     public static void main(String[] args) {
         int[] arr = {12, 11, 13, 5, 6, 7};
-        mergeSort(arr,0,2,5);
-        System.out.println( mergeSort(arr,0,2,5));
+
+
     }
 }
