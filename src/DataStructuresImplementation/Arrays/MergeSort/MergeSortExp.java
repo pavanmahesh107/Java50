@@ -84,3 +84,9 @@ public class MergeSortExp {
         System.out.println();
     }
 }
+
+ // Time Complexity:
+//Best Case: O(n log n), When the array is already sorted or nearly sorted.
+//Average Case: O(n log n), When the array is randomly ordered.
+//Worst Case: O(n log n), When the array is sorted in reverse order.
+//Auxiliary Space: O(n), Additional space is required for the temporary array used during merging.
