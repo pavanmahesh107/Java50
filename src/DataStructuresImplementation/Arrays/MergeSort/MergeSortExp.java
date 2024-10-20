@@ -52,11 +52,12 @@ public class MergeSortExp {
         if (left < right) {
 
             // Find the middle point.
-            int mid = left + (right - left) / 2;
+            int mid = left + (right - left) / 2; // Here mid is calculated left +(right - left) / 2 because to avoid integer Overflow.
 
             // Recursively Sort first and Second halves.
             sort(arr, left, mid);
-            sort(arr, mid + 1, right);
+            sort(arr, mid + 1, right);  // Here why sort (arr, mid + 1, right) why mid + 1,
+            // already mid is used in left subarray, so the next element is mid + 1.
 
             // Merge the sorted halves.
             mergeSort(arr, left, mid, right);

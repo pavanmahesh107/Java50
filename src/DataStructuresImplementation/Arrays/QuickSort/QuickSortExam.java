@@ -25,7 +25,7 @@ public class QuickSortExam {
 
     // Function to perform quick sort
     public static void quickSort(int[] arr, int low, int high) {
-        if (low < high) {
+        if (low < high) {  // low = 0 and high = 5 which are indices of a given array.
             int par = partition(arr, low, high);
             quickSort(arr, low, par - 1);
             quickSort(arr, par + 1, high);
