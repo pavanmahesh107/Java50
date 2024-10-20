@@ -48,15 +48,15 @@ public class MergeSortExp {
 
     }
 
-    public static void merge(int[] arr, int left, int right) {
+    public static void sort(int[] arr, int left, int right) {
         if (left < right) {
 
             // Find the middle point.
             int mid = left + (right - left) / 2;
 
-            // Sort first and Second halves.
-            merge(arr, left, mid);
-            merge(arr, mid + 1, right);
+            // Recursively Sort first and Second halves.
+            sort(arr, left, mid);
+            sort(arr, mid + 1, right);
 
             // Merge the sorted halves.
             mergeSort(arr, left, mid, right);
@@ -71,7 +71,7 @@ public class MergeSortExp {
         System.out.println("Original Array");
         printArray(arr);
 
-        merge(arr, 0, n - 1);
+        sort(arr, 0, n - 1);
 
         System.out.println("Sorted Array");
         printArray(arr);
