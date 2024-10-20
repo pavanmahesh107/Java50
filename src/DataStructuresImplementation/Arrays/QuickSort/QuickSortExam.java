@@ -52,6 +52,8 @@ public class QuickSortExam {
     }
 }
 
+// https://chatgpt.com/share/6714a02d-1f00-800c-8f7d-00277f45af18
+
 // Time Complexity:
 //
 //Best Case: (Ω(n log n)), Occurs when the pivot element divides the array into two equal halves.
