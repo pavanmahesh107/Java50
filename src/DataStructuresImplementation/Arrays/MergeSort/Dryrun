@@ -1,0 +1,13 @@
+Dry Run:
+Step	Function Call	Left Subarray	Right Subarray	Action/Result
+1	merge(arr, 0, 5)	{12, 11, 13}	{5, 6, 7}    	Divide into left and right halves.
+2	merge(arr, 0, 2)	{12, 11}	     {13}	        Divide left part further.
+3	merge(arr, 0, 1)	{12}	{11}	Divide {12, 11}  into single elements.
+4	mergeSort(arr, 0, 0, 1)	{12}	{11}	Merge {12} and {11} into {11, 12}.
+5	mergeSort(arr, 0, 1, 2)	{11, 12}	{13}	Merge {11, 12} and {13} into {11, 12, 13}.
+6	merge(arr, 3, 5)	{5, 6}	{7}	Divide right part further.
+7	merge(arr, 3, 4)	{5}	{6}	Divide {5, 6} into single elements.
+8	mergeSort(arr, 3, 3, 4)	{5}	{6}	Merge {5} and {6} into {5, 6}.
+9	mergeSort(arr, 3, 4, 5)	{5, 6}	{7}	Merge {5, 6} and {7} into {5, 6, 7}.
+10	mergeSort(arr, 0, 2, 5)	{11, 12, 13}	{5, 6, 7}	Merge {11, 12, 13} and {5, 6, 7}.
+11	Result	-	-	Final Sorted Array: {5, 6, 7, 11, 12, 13}
