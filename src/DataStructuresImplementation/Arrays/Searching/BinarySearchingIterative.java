@@ -39,3 +39,6 @@ public class BinarySearchingIterative {
         }
     }
 }
+
+// Time Complexity: O(log n) since the array is divided into two halves at each step.
+// Space Complexity : O(1) since no extra spaces used.
