@@ -3,10 +3,10 @@ package DataStructuresImplementation.Arrays.SlidingWindow;
 
 // Find a maximum sum of K consecutive elements
 public class SlidingWindowExam {
-    public static int maxSum(int[] arr, int k) {
+    public static int sliding(int[] arr, int k) {
         // Edge case: checking if the k is in bounded with in the length of an array.
         if (arr.length < k) {
-            System.out.println("Invalid input: k is larger than the array length");
+            System.out.println("Invalid input: " + k + " is larger than the array length " + arr.length);
             return -1;
         }
 
@@ -31,8 +31,8 @@ public class SlidingWindowExam {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-        int k = 3;
-        int res = maxSum(arr,k);
+        int k = 12;
+        int res = sliding(arr,k);
         System.out.println("The maximum sum of " + k + " consecutive element is: " + res);
     }
 }
