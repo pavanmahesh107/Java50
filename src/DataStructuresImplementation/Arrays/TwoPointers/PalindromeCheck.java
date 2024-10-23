@@ -29,3 +29,9 @@ public class PalindromeCheck {
         System.out.println(res);
     }
 }
+
+// Time Complexity -- O(n) where n is the length of the string.
+// The two pointers traverse the string from both ends, comparing characters. In the worst case, they meet in the middle, leading to n/2 comparisons, which simplifies to O(n).
+
+// Space Complexity -- O(1)
+// No extra space is used that grows with input size, as only a constant amount of space is needed for the two pointers (left and right).
