@@ -1,24 +1,15 @@
 package DataStructuresImplementation.LinkedListsimp;
-// Node structure
-class Node {
-    int data;  // value stored in the node.
-    Node next;  // Reference to the next node.
-
-    Node(int data) {
-        this.data = data;
-        this.next = null; // Next is initially null.
-    }
-}
 
 public class LinkedListTraversal {
-     Node head;
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
+        list.head = new Node(10);
+        Node sec =  new Node(20);
+        Node thr = new Node(30);
 
-     public void traverse(){
-         Node current = head;
-         while( current != null){
-             System.out.println(current.data + " -> ");
-             current = current.next;
-         }
-         System.out.println("null");
-     }
+        list.head.next = sec;
+        sec.next = thr;
+
+        list.traverse();
+    }
 }

@@ -1,23 +1,25 @@
 package DataStructuresImplementation.LinkedListsimp;
+// Node structure
+class Node {
+    int data;  // value stored in the node.
+    Node next;  // Reference to the next node.
+
+    Node(int data) {
+        this.data = data;
+        this.next = null; // Next is initially null.
+    }
+}
 
 public class LinkedList {
-    Node head; // Head of the List
+     Node head;
 
-    //Node class remains the same
-    class Node{  //Each node will store data and a reference to the next Node.
-        int data;
-        Node next;
-
-        Node(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
-
-    // Insert at begining of LinkedList.
-    public void insertAtBegining(int data){
-        Node newNode = new Node(data);
-        newNode.next = head;
-        head =newNode;
-    }
+     public void traverse(){
+         Node current = head;
+         while( current != null){
+             System.out.println(current.data + " -> ");
+             current = current.next;
+         }
+         System.out.println("null");
+     }
+     
 }
