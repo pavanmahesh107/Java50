@@ -80,6 +80,12 @@ class LinkedList{
 
     }
 
+    // The overall time complexity for the insertAtPosition method depends on the position where the insertion is being performed:
+    //
+    //Best case: O(1) (insertion at the head)
+    //Worst case: O(n) (insertion at the end)
+    //Average case: O(n) (as in general, insertion will require traversal)
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
@@ -89,7 +95,7 @@ class LinkedList{
         list.insertAtBeginning(5);
 
         list.insertionAtPoisiton(15,1);
-        list.insertionAtPoisiton(25,4);
+        list.insertionAtPoisiton(25,10);
 
         list.insertAtEnd(30);
         list.insertAtEnd(50);
@@ -99,5 +105,7 @@ class LinkedList{
     }
 }
 
+
+// https://chatgpt.com/share/671f755f-7bb4-800c-8710-c540df4f235c
 
 
