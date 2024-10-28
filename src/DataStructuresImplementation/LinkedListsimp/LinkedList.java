@@ -59,17 +59,42 @@ class LinkedList{
         current.next = newNode;
     }
 
+    public void insertionAtPoisiton(int data, int position){
+        Node newNode = new Node(data);
+
+        if(position == 0){ // Special Case: Insert at Head
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+        Node current = head;
+        for(int i = 0; i < position - 1 && current != null; i++){
+            current = current.next;
+        }
+        if(current  == null){
+            System.out.println("Position out of range");
+            return;
+        }
+       newNode.next = current.next;
+        current.next= newNode;
+
+    }
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
-        list.insertAtBeginning(50);
-        list.insertAtBeginning(40);
-        list.insertAtBeginning(30);
+
         list.insertAtBeginning(20);
         list.insertAtBeginning(10);
         list.insertAtBeginning(5);
 
+        list.insertionAtPoisiton(15,1);
+        list.insertionAtPoisiton(25,4);
+
         list.insertAtEnd(30);
+        list.insertAtEnd(50);
+        list.insertAtEnd(40);
+
         list.printList();
     }
 }
