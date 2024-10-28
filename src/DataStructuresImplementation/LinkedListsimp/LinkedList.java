@@ -31,7 +31,7 @@ class LinkedList{
             current = current.next;  // Moves the current pointer to the next node in the list.
             // This is crucial for ensuring that you visit each node.
         }
-        System.out.println("null");
+        System.out.println("null");  // The Time Complexity of traversing a LinkedList is O(n).
     }
 
     // Purpose of Node current = head;
@@ -41,6 +41,23 @@ class LinkedList{
     //Traversal Control:
     //As you iterate through the linked list, current acts as a pointer to the node currently being processed.
     // By moving current to the next node in each iteration, you can access all nodes in the linked list sequentially.
+
+    public void insertAtEnd(int data){
+        Node newNode = new Node(data);
+        if(head == null){ // The time complexity here if the head is null is O(1). If the list is empty
+            head = newNode;
+            return;  // Prevents unnecessary traversal when the list is empty.
+        }
+        // Best Case (empty list): O(1)
+        //Worst Case (non-empty list): O(n), where n is the number of nodes in the list.
+
+        Node current = head;  // Important: current is a copy of the reference to the first node.
+        // Modifying current will not affect the head.
+        while (current.next!= null){
+            current = current.next;
+        }
+        current.next = newNode;
+    }
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
@@ -52,6 +69,7 @@ class LinkedList{
         list.insertAtBeginning(10);
         list.insertAtBeginning(5);
 
+        list.insertAtEnd(30);
         list.printList();
     }
 }
