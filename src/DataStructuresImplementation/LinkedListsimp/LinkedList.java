@@ -28,7 +28,9 @@ class LinkedList{
         Node current = head; // sets current to the head of the list so that the traversal starts at the first node.
         while (current != null) {
             System.out.print(current.data + " -> ");
-            current = current.next;  // Moves the current pointer to the next node in the list.
+            current = current.next;  // Setting current = current.next makes current points to the next node
+            // (Because we have to traverse fully into the linked list)
+            // Moves the current pointer to the next node in the list.
             // This is crucial for ensuring that you visit each node.
         }
         System.out.println("null");  // The Time Complexity of traversing a LinkedList is O(n).
@@ -86,20 +88,39 @@ class LinkedList{
     //Worst case: O(n) (insertion at the end)
     //Average case: O(n) (as in general, insertion will require traversal)
 
+    public void deleteFromHead(){
+        if(head != null) {  // It's a direct way of deleting a Node from the head.
+            head = head.next;
+            // This means the current head node is bypassed, and now the second node becomes the new head.
+            // The original first node has no reference pointing to it, so it becomes eligible for garbage collection.
+        }
+
+        // The TC for deleting the node from the Head is O(1).
+
+            // Alternate Way to delete the Head. This approach helps to check if the head is empty or not.
+//            if(head == null){
+//                System.out.println("List is Empty");
+//                return;
+//            }
+//            head = head.next;
+    }
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
 
         list.insertAtBeginning(20);
-        list.insertAtBeginning(10);
+        list.insertAtBeginning(15);
         list.insertAtBeginning(5);
 
-        list.insertionAtPoisiton(15,1);
+        list.insertionAtPoisiton(10,1);
         list.insertionAtPoisiton(25,10);
 
         list.insertAtEnd(30);
-        list.insertAtEnd(50);
         list.insertAtEnd(40);
+        list.insertAtEnd(50);
+
+        list.deleteFromHead();  // It deletes 5 from the Head.
 
         list.printList();
     }
