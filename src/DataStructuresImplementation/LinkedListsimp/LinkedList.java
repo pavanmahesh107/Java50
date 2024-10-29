@@ -105,6 +105,25 @@ class LinkedList{
 //            head = head.next;
     }
 
+    public void deleteFromTail(){
+        if(head == null){  // If List is Empty
+            System.out.println("List is Empty");
+            return;
+        }
+
+        if(head.next == null){  // Check if there is only one node is present in the linked list.
+            head = null;  // Remove the only node by setting head to null.
+            System.out.println("The List is Empty Now");
+            return;
+        }
+
+        Node current = head;
+        while (current.next.next != null){
+            current = current.next;
+        }
+        current.next = null;
+    }
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
@@ -121,6 +140,8 @@ class LinkedList{
         list.insertAtEnd(50);
 
         list.deleteFromHead();  // It deletes 5 from the Head.
+
+       // list.deleteFromTail();
 
         list.printList();
     }
