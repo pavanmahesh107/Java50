@@ -117,11 +117,16 @@ class LinkedList{
             return;
         }
 
-        Node current = head;
-        while (current.next.next != null){
+        Node current = head;  // Current starts at head 10 in this example.
+        while (current.next.next != null){   // Why do we need to traverse till current.next.next(Second last node)?
+            // In general,
+            // we need the second-last node
+            // to disconnect the last node safely in a singly linked list,
+            // since we can only move forward, not backward.
             current = current.next;
         }
-        current.next = null;
+        current.next = null;  // At this point, temp is pointing to the second last node(node with value 40)
+        // This line disconnects the last node 50 from the list.
     }
 
     public static void main(String[] args) {
@@ -141,7 +146,7 @@ class LinkedList{
 
         list.deleteFromHead();  // It deletes 5 from the Head.
 
-       // list.deleteFromTail();
+        list.deleteFromTail();  // It deletes the 50 from the tail
 
         list.printList();
     }
