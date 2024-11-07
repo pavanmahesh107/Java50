@@ -9,7 +9,7 @@ public class CountFrequency {
         // key -> element of array A.
         // value -> frequency of that element.
         for (int ele : A) {
-            if (freqmap.containsKey(ele) == false) {
+            if (!freqmap.containsKey(ele)) {
                 // insert a new pair of elements with freq = 1
                 freqmap.put(ele, 1);
             } else {

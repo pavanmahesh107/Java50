@@ -129,6 +129,35 @@ class LinkedList{
         // This line disconnects the last node 50 from the list.
     }
 
+
+    public void deleteFromPosition(int index){  // The Index checking ensures you don't attempt to delete nodes at non-existent positions
+        // (like deleting at index 5 when te list has only 3 nodes).
+        if(index < 0){  // 1.Invalid index
+            System.out.println("Invalid Index"); // A negative index doesn't make sense in the context of a linked list.
+            return;
+        }
+
+        if(head == null){  // 2.Empty List
+            System.out.println("List is Empty");  // If the list is empty, there is no node to delete at any position.
+            return;
+        }
+
+        if(index == 0){   // 3.Delete te head element.
+            head = head.next;  // the first node (head) needs to be deleted.
+            return;
+        }
+
+        Node current = head;    // start at the head.
+        for(int i = 0; i < index -1; i++){
+            if(current == null||current.next == null){  // If the index is larger than the number of nodes, the method should exit to prevent null pointer exceptions.
+                System.out.println("Index out of bound");
+                return;
+            }
+            current = current.next;
+        }
+        current.next = current.next.next;
+    }
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
@@ -147,6 +176,8 @@ class LinkedList{
         list.deleteFromHead();  // It deletes 5 from the Head.
 
         list.deleteFromTail();  // It deletes the 50 from the tail
+
+        list.deleteFromPosition(3);  // It deletes the element of Index 3.
 
         list.printList();
     }
