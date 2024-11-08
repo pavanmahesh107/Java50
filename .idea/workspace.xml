@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
     "Application.GCDIterative.executor": "Run",
     "Application.GCDRecursion.executor": "Run",
     "Application.Insertionsorting.executor": "Run",
+    "Application.KthSmallestElementinArray.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.LinkedListDelete.executor": "Run",
     "Application.LinkedListTraversal.executor": "Run",
@@ -71,6 +73,7 @@
     "Application.MaximumAverageSubArray.executor": "Run",
     "Application.MergeSortExp.executor": "Run",
     "Application.MergesortedArray.executor": "Run",
+    "Application.PairComparator.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.PrimeNumberCheck.executor": "Run",
     "Application.QuickSort.executor": "Run",
@@ -216,7 +219,7 @@
       <workItem from="1730266306576" duration="8701000" />
       <workItem from="1730522924055" duration="417000" />
       <workItem from="1730947362532" duration="4842000" />
-      <workItem from="1731028632182" duration="2025000" />
+      <workItem from="1731028632182" duration="12399000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />

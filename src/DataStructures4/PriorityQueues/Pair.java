@@ -1,12 +1,15 @@
 package DataStructures4.PriorityQueues;
 
-public class Pair {
+
+class Pair{
     int x;
     int y;
 
-    Pair(int a, int b){
-        this.x = a;
-        this.y = b;
-     }
 
+
+    Pair(int a, int b){
+        x = a;
+        y = b;
+
+    }
 }
