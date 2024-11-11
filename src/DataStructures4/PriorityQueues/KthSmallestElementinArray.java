@@ -27,3 +27,7 @@ public class KthSmallestElementinArray {
         System.out.println("The " + k + "th smallest element is " + distinctElements(arr,k));
     }
 }
+
+
+// The Time Complexity is O(NlogK)
+// The Space Complexity is O(K)
