@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures4/Tries/Autocompletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/Tries/Autocompletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.AdjacencyMatrix.executor&quot;: &quot;Run&quot;,
     &quot;Application.ArrayImplementaion.executor&quot;: &quot;Run&quot;,
     &quot;Application.BasicOperations.executor&quot;: &quot;Run&quot;,
     &quot;Application.BestTimetoBuyandSellStock2.executor&quot;: &quot;Run&quot;,
@@ -50,9 +54,13 @@
     &quot;Application.CountFrequency.executor&quot;: &quot;Run&quot;,
     &quot;Application.CountOfPairs.executor&quot;: &quot;Run&quot;,
     &quot;Application.CustomKey.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleDetection.executor&quot;: &quot;Run&quot;,
     &quot;Application.DataStructres2.Hashing1.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.DataStructres2.Hashing3.ObjectasaKey.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.DataStructres2.Recursion3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DependencyInjection.ConstructorInjection.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DependencyInjection.UsingClass.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DijkstraAlgorithm.executor&quot;: &quot;Run&quot;,
     &quot;Application.DistinctCoordinates.executor&quot;: &quot;Run&quot;,
     &quot;Application.DistinctElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.EagerSingleton.executor&quot;: &quot;Run&quot;,
@@ -61,8 +69,12 @@
     &quot;Application.Fibonaccirecurssion.executor&quot;: &quot;Run&quot;,
     &quot;Application.FibonacciusingForLoop.executor&quot;: &quot;Run&quot;,
     &quot;Application.FirstNonRepeatingElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FractionalKnapsack.executor&quot;: &quot;Run&quot;,
     &quot;Application.GCDIterative.executor&quot;: &quot;Run&quot;,
     &quot;Application.GCDRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphBFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphDFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Graphrepresentation.executor&quot;: &quot;Run&quot;,
     &quot;Application.ImplementingTrie.executor&quot;: &quot;Run&quot;,
     &quot;Application.Insertionsorting.executor&quot;: &quot;Run&quot;,
     &quot;Application.KthSmallestElementinArray.executor&quot;: &quot;Run&quot;,
@@ -73,6 +85,7 @@
     &quot;Application.MaximumAverageSubArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeSortExp.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergesortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NTowns.executor&quot;: &quot;Run&quot;,
     &quot;Application.PairComparator.executor&quot;: &quot;Run&quot;,
     &quot;Application.PalindromeCheck.executor&quot;: &quot;Run&quot;,
     &quot;Application.PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
@@ -82,6 +95,7 @@
     &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseArrayuisngTwoPointers.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseArrayusingNave.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RottenOranges.executor&quot;: &quot;Run&quot;,
     &quot;Application.SlidingWindowExam.executor&quot;: &quot;Run&quot;,
     &quot;Application.SortZeroOne.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringContainsVowels.executor&quot;: &quot;Run&quot;,
@@ -91,11 +105,13 @@
     &quot;Application.SubArraySumK.executor&quot;: &quot;Run&quot;,
     &quot;Application.SumofAllDigits.executor&quot;: &quot;Run&quot;,
     &quot;Application.SwapNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwingCheck.executor&quot;: &quot;Run&quot;,
     &quot;Application.Systemerr.executor&quot;: &quot;Run&quot;,
     &quot;Application.Systemin.executor&quot;: &quot;Run&quot;,
     &quot;Application.TargetSumExpectedSol.executor&quot;: &quot;Run&quot;,
     &quot;Application.TargetSumPair.executor&quot;: &quot;Run&quot;,
     &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TopologicalSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.TowerofHannai.executor&quot;: &quot;Run&quot;,
     &quot;Application.TowersofHannai.executor&quot;: &quot;Run&quot;,
     &quot;Application.TwoPointersExp.executor&quot;: &quot;Run&quot;,
@@ -105,6 +121,8 @@
     &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
     &quot;Application.WindowofSizeB.executor&quot;: &quot;Run&quot;,
     &quot;Application.WrapperClassExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperFun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bytetostring.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -114,7 +132,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.grazie.pro&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -224,7 +245,25 @@
       <workItem from="1731226428688" duration="632000" />
       <workItem from="1731294497112" duration="11643000" />
       <workItem from="1731383186909" duration="9599000" />
-      <workItem from="1731467752479" duration="4436000" />
+      <workItem from="1731467752479" duration="20815000" />
+      <workItem from="1731917853865" duration="11845000" />
+      <workItem from="1732076399556" duration="748000" />
+      <workItem from="1732107155445" duration="15785000" />
+      <workItem from="1732519576906" duration="9663000" />
+      <workItem from="1732601748126" duration="1235000" />
+      <workItem from="1732640574774" duration="1277000" />
+      <workItem from="1732675990281" duration="8188000" />
+      <workItem from="1732768954685" duration="18950000" />
+      <workItem from="1733112236485" duration="5551000" />
+      <workItem from="1733210773933" duration="8936000" />
+      <workItem from="1733284360883" duration="16732000" />
+      <workItem from="1733362685561" duration="11773000" />
+      <workItem from="1733643260800" duration="1696000" />
+      <workItem from="1733731001390" duration="6223000" />
+      <workItem from="1733745789503" duration="3086000" />
+      <workItem from="1733803298262" duration="1325000" />
+      <workItem from="1733899720057" duration="7286000" />
+      <workItem from="1734079601861" duration="383000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -251,6 +290,15 @@
           <url>file://$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DataStructures4/Tries/ImplementingTrie.java</url>
+          <line>5</line>
+          <properties class="DataStructures4.Tries.ImplementingTrie" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
