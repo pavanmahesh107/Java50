@@ -6,5 +6,5 @@ public class Main {
         DoubleCheckLocking doubleCheckLocking2 = DoubleCheckLocking.getInstance();
 
         System.out.println("DEBUG");
-    } //invalid method declaration; return type required
+    } //invalid method declaration; return a type required
 }

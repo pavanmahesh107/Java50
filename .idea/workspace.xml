@@ -6,14 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d2f8c4-690d-4407-8d0e-b7875f703175" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/PriorityQueues/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataStructures4/Tries/Autocompletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/Tries/Autocompletion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures4/Tries/ImplementingTrie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures4/Tries/ImplementingTrie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaSwing/SwingCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSwing/SwingCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,107 +41,135 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AdjacencyMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayImplementaion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimetoBuyandSellStock2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearchingIterative.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BobJames.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Bubblesorting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CaluclateApowerN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Characterarray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Children.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountFrequency.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountOfPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomKey.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CycleDetection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStructres2.Hashing1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStructres2.Hashing3.ObjectasaKey.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStructres2.Recursion3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DependencyInjection.ConstructorInjection.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DependencyInjection.UsingClass.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DijkstraAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctCoordinates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EagerSingleton.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciIterative.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonaccirecurssion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibonacciusingForLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstNonRepeatingElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FractionalKnapsack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDIterative.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GCDRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphBFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GraphDFS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Graphrepresentation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplementingTrie.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Insertionsorting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthSmallestElementinArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListDelete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumAverageSubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeSortExp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergesortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NTowns.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairComparator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PalindromeCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimeNumberCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintMedian.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSortExam.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArrayuisngTwoPointers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseArrayusingNave.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RottenOranges.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SlidingWindowExam.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortZeroOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringContainsVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPrograms.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArraySumK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumofAllDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwingCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Systemerr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Systemin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TargetSumExpectedSol.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TargetSumPair.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopologicalSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TowerofHannai.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TowersofHannai.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoPointersExp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoPointersExpforSingleoutput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoPointersHashTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoPointersforManyoutput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WindowofSizeB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperClassExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperFun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bytetostring.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.grazie.pro&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AdjacencyMatrix.executor": "Run",
+    "Application.AllNumbers.executor": "Run",
+    "Application.ArrayImplementaion.executor": "Run",
+    "Application.BasicOperations.executor": "Run",
+    "Application.BestTimetoBuyandSellStock2.executor": "Run",
+    "Application.BinarySearchingIterative.executor": "Run",
+    "Application.BobJames.executor": "Run",
+    "Application.Bubblesorting.executor": "Run",
+    "Application.CaluclateApowerN.executor": "Run",
+    "Application.Characterarray.executor": "Run",
+    "Application.Children.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.ClimbingStairs.executor": "Run",
+    "Application.CoinChange.executor": "Run",
+    "Application.CountFrequency.executor": "Run",
+    "Application.CountOfPairs.executor": "Run",
+    "Application.CustomKey.executor": "Run",
+    "Application.CycleDetection.executor": "Run",
+    "Application.DataStructres2.Hashing1.Main.executor": "Run",
+    "Application.DataStructres2.Hashing3.ObjectasaKey.Main.executor": "Run",
+    "Application.DataStructres2.Recursion3.Main.executor": "Run",
+    "Application.DependencyInjection.ConstructorInjection.Main.executor": "Run",
+    "Application.DependencyInjection.UsingClass.Main.executor": "Run",
+    "Application.DijkstraAlgorithm.executor": "Run",
+    "Application.DistinctCoordinates.executor": "Run",
+    "Application.DistinctElement.executor": "Run",
+    "Application.EagerSingleton.executor": "Run",
+    "Application.Employee.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FibonacciIterative.executor": "Run",
+    "Application.FibonacciSeries.executor": "Run",
+    "Application.Fibonaccirecurssion.executor": "Run",
+    "Application.FibonacciusingForLoop.executor": "Run",
+    "Application.FirstNonRepeatingElement.executor": "Run",
+    "Application.FractionalKnapsack.executor": "Run",
+    "Application.FrogJump.executor": "Run",
+    "Application.FrogJumpMemo.executor": "Run",
+    "Application.FrogJumpSpaceOpt.executor": "Run",
+    "Application.GCDIterative.executor": "Run",
+    "Application.GCDRecursion.executor": "Run",
+    "Application.GraphBFS.executor": "Run",
+    "Application.GraphDFS.executor": "Run",
+    "Application.Graphrepresentation.executor": "Run",
+    "Application.ImplementingTrie.executor": "Run",
+    "Application.Insertionsorting.executor": "Run",
+    "Application.KthSmallestElementinArray.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LinkedListDelete.executor": "Run",
+    "Application.LinkedListExample.executor": "Run",
+    "Application.LinkedListTraversal.executor": "Run",
+    "Application.LongestIncreasingSubsequence.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaximumAverageSubArray.executor": "Run",
+    "Application.MemoizationFib.executor": "Run",
+    "Application.MergeSortExp.executor": "Run",
+    "Application.MergesortedArray.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NTowns.executor": "Run",
+    "Application.Normal.executor": "Run",
+    "Application.PairComparator.executor": "Run",
+    "Application.PalindromeCheck.executor": "Run",
+    "Application.PrimeNumberCheck.executor": "Run",
+    "Application.PrintAll.executor": "Run",
+    "Application.PrintMedian.executor": "Run",
+    "Application.PrintingSubSumK.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.QuickSortExam.executor": "Run",
+    "Application.Recvsback.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.ReverseArrayuisngTwoPointers.executor": "Run",
+    "Application.ReverseArrayusingNave.executor": "Run",
+    "Application.RottenOranges.executor": "Run",
+    "Application.SimplExp.executor": "Run",
+    "Application.Singleton.executor": "Run",
+    "Application.SlidingWindowExam.executor": "Run",
+    "Application.SortZeroOne.executor": "Run",
+    "Application.StrExampl.executor": "Run",
+    "Application.Streamcre.executor": "Run",
+    "Application.StringClass.executor": "Run",
+    "Application.StringContainsVowels.executor": "Run",
+    "Application.StringMethods.executor": "Run",
+    "Application.StringPrograms.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.SubArraySumK.executor": "Run",
+    "Application.SubsetSum.executor": "Run",
+    "Application.SumofAllDigits.executor": "Run",
+    "Application.SwapNumbers.executor": "Run",
+    "Application.SwingCheck.executor": "Run",
+    "Application.Systemerr.executor": "Run",
+    "Application.Systemin.executor": "Run",
+    "Application.TabulationFib.executor": "Run",
+    "Application.TargetSum.executor": "Run",
+    "Application.TargetSumExpectedSol.executor": "Run",
+    "Application.TargetSumPair.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.TopologicalSort.executor": "Run",
+    "Application.TowerofHannai.executor": "Run",
+    "Application.TowersofHannai.executor": "Run",
+    "Application.TwoPointersExp.executor": "Run",
+    "Application.TwoPointersExpforSingleoutput.executor": "Run",
+    "Application.TwoPointersHashTable.executor": "Run",
+    "Application.TwoPointersforManyoutput.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
+    "Application.WindowofSizeB.executor": "Run",
+    "Application.WrapperClassExample.executor": "Run",
+    "Application.WrapperFun.executor": "Run",
+    "Application.bytetostring.executor": "Run",
+    "Application.parametarized.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pmrachapudi/OneDrive - Sopra Steria/Desktop/dev-spring-boot/mycoolapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.grazie.pro",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Factory.Client" />
@@ -263,7 +294,27 @@
       <workItem from="1733745789503" duration="3086000" />
       <workItem from="1733803298262" duration="1325000" />
       <workItem from="1733899720057" duration="7286000" />
-      <workItem from="1734079601861" duration="383000" />
+      <workItem from="1734079601861" duration="6967000" />
+      <workItem from="1734357660787" duration="1004000" />
+      <workItem from="1734523776322" duration="4714000" />
+      <workItem from="1734601576994" duration="7985000" />
+      <workItem from="1734674080940" duration="2079000" />
+      <workItem from="1734866079336" duration="3413000" />
+      <workItem from="1735022570253" duration="9869000" />
+      <workItem from="1735528344511" duration="8905000" />
+      <workItem from="1735709297539" duration="622000" />
+      <workItem from="1735786373004" duration="5605000" />
+      <workItem from="1735968062368" duration="12593000" />
+      <workItem from="1736216663971" duration="13256000" />
+      <workItem from="1736303632349" duration="16890000" />
+      <workItem from="1736496034522" duration="1568000" />
+      <workItem from="1737450861013" duration="6986000" />
+      <workItem from="1737517765904" duration="3286000" />
+      <workItem from="1739335780210" duration="1369000" />
+      <workItem from="1739363244106" duration="3481000" />
+      <workItem from="1739512086658" duration="592000" />
+      <workItem from="1739596152594" duration="603000" />
+      <workItem from="1740454220500" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -282,25 +333,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DesignPatterns/Singleton/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/DataStructures4/Tries/ImplementingTrie.java</url>
-          <line>5</line>
-          <properties class="DataStructures4.Tries.ImplementingTrie" method="&lt;init&gt;">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

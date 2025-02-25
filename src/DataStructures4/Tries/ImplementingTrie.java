@@ -4,6 +4,7 @@ public class ImplementingTrie {
     private final TrieNode root;
 
     public ImplementingTrie(){
+
         root = new TrieNode();
     }
 
