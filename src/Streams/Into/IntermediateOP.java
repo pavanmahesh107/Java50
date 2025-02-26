@@ -1,6 +1,7 @@
 package Streams.Into;
 
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class IntermediateOP {
@@ -9,7 +10,7 @@ public class IntermediateOP {
         // Different Intermediate operations.
 
         // Filter method -> Internally it uses Predicate which is functional Interface returns boolean.
-        // filter(Predicate <T> Predicate)
+        // filter(Predicate <T> Predicate) -> filter the element.
 
         // Ex : 1
         Stream<String> stringStream = Stream.of("Hello", "Everybody", "How", "are", "you");
@@ -24,5 +25,15 @@ public class IntermediateOP {
 
         List<Integer> filterIntegerList = filterInteger.toList();
         System.out.println(filterIntegerList);
+
+        // Map method - > internally it uses Function interface which takes one param returns before element.
+        //map<Function<T,R> mapper> -> Used to transform each element.
+
+        // Ex: 1
+        Stream<String> mapStream = Stream.of("Hey", "EVERYBODY", "HOW", "ARE", "DOING");
+        Stream<Integer> stream = mapStream.map((String str) -> str.length());
+
+        List<Integer> stringStream1 = stream.collect(Collectors.toList());
+        System.out.println(stringStream1);
     }
 }
