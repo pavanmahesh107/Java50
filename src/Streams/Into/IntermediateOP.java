@@ -47,6 +47,7 @@ public class IntermediateOP {
         // FlatMap -> It will Iterate over the elements of the complex collection then Flattens it.
         // It uses <Functional < T,Stream<R> mapper>
 
+        // Ex : 1
         List<List<String>> complCollect = Arrays.asList(
                 Arrays.asList("I", "LOVE", "JAVA"),
                 Arrays.asList("CONCEPTS", "ARE", "CLEAR"),
@@ -56,11 +57,28 @@ public class IntermediateOP {
         Stream<String> flatPro = complCollect.stream().flatMap((List<String> str) -> str.stream());
         System.out.println(flatPro.toList());
 
-        Stream<String> flatPro1 = complCollect.stream().flatMap((List<String> str) -> str.stream().map((String val) -> val.toLowerCase()));
+        Stream<String> flatPro1 = complCollect.stream().flatMap((List<String> str) -> str.stream().map(String::toLowerCase));  // 2 Intermediate operations flatMap & map
         System.out.println(flatPro1.toList());
 
 
-     }
+        // Distinct -> Removes duplicate elements from the array
+        Integer[] arr = {9,7,3,7,3,1,2};
+        Stream<Integer> Strdist = Arrays.stream(arr).distinct();
+        System.out.println(Strdist.toList());
 
+        // Sorted - it sorts the array in ascending order.
+        Integer[] sortArr = {9,7,3,7,3,1,2};
+        Stream<Integer> strSort = Arrays.stream(sortArr).sorted();
+        System.out.println(strSort.toList());
+
+        // Peek - It helps to print or see the intermediate results of the Stream
+        List<Integer> lisPeek = Arrays.asList(2,8,5,9,4);
+        Stream<Integer> peekEle = lisPeek.stream().filter((Integer var ) -> var >= 4)
+                .peek((Integer res) -> System.out.println(res))
+                .map((Integer val) -> -1* val);
+
+        System.out.println(peekEle.toList());
+
+     }
 
 }
